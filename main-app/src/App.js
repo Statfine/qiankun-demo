@@ -9,8 +9,8 @@ function App() {
   return (
     <div className="App">
       <div className="flex">
-        <div onClick={() => handleJump('react')}>React</div>
-        <div onClick={() => handleJump('vue')}>Vue</div>
+        <div onClick={() => handleJump('/react')} style={{ flex: 1 }}>React</div>
+        <div onClick={() => handleJump('/vue')} style={{ flex: 1 }}>Vue</div>
       </div>
       <div id="subapp-"></div>
     </div>
