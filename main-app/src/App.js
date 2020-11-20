@@ -29,6 +29,11 @@ const APP_LIST = [
     name: 'Vue',
     router: '/vue',
     background: '#23b886',
+  },
+  {
+    name: 'Html',
+    router: '/html',
+    background: '#e3e3e3',
   }
 ]
 

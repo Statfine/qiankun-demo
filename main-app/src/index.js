@@ -32,6 +32,11 @@ registerMicroApps([
     entry: '//localhost:7101',
     container: '#subapp-',
     activeRule: genActiveRule('/vue')
+  },  {
+    name: 'html',
+    entry: '//localhost:7102',
+    container: '#subapp-',
+    activeRule: genActiveRule('/html')
   },
 ], {
   beforeLoad: [app => {
