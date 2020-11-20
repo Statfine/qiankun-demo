@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 
 function App() {
 
@@ -9,9 +8,6 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        Hello word
-      </header>
       <div className="flex">
         <div onClick={() => handleJump('react')}>React</div>
         <div onClick={() => handleJump('vue')}>Vue</div>

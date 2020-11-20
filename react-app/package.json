@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@babel/core": "7.12.3",
     "@pmmmwh/react-refresh-webpack-plugin": "0.4.2",
     "@svgr/webpack": "5.4.0",
     "@testing-library/jest-dom": "^5.11.4",
@@ -11,6 +10,7 @@
     "@testing-library/user-event": "^12.1.10",
     "@typescript-eslint/eslint-plugin": "^4.5.0",
     "@typescript-eslint/parser": "^4.5.0",
+    "antd": "^4.8.4",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^26.6.0",
     "babel-loader": "8.1.0",
@@ -53,7 +53,8 @@
     "react-dev-utils": "^11.0.0",
     "react-dom": "^17.0.1",
     "react-refresh": "^0.8.3",
-    "resolve": "1.18.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.0",
     "resolve-url-loader": "^3.1.2",
     "sass-loader": "8.0.2",
     "semver": "7.3.2",
@@ -146,5 +147,9 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "resolve": "^1.19.0"
   }
 }
